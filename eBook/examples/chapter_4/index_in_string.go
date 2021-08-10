@@ -18,4 +18,5 @@ func main() {
 
 	fmt.Printf("The position of \"Burger\" is: ")
 	fmt.Printf("%d\n", strings.Index(str, "Burger"))
+
 }

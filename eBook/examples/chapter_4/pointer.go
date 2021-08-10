@@ -9,4 +9,12 @@ func main() {
 	var intP *int
 	intP = &i1
 	fmt.Printf("The value at memory location %p is %d\n", intP, *intP)
+
+	var pp *int
+	pp = &i1
+	a := *pp
+	a = 10
+	fmt.Println(*pp)
+	fmt.Println(a)
+
 }
